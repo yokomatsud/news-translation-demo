@@ -51,7 +51,7 @@ const currentMonth = date.getMonth() + 1;
 
 ## Date now
 
-`now()`は`Date`オブジェクトの静的メソッドです。これは、Epoch以降の経過時間をミリ秒で表す値を返します。`now()`メソッドから返されたミリ秒を`Date`コンストラクタに渡して、新しい`Date`オブジェクトをインスタンス化することができます：
+`now()` は `Date` オブジェクトの静的メソッドです。このメソッドは、エポックからの経過時間をミリ秒で表す値を返します。新しい `Date` オブジェクトをインスタンス化する際、`Date` コンストラクタに `now()` メソッドから返されたミリ秒を渡すこともできます:
 
 ```js
 const timeElapsed = Date.now();
@@ -60,33 +60,33 @@ const today = new Date(timeElapsed);
 
 ## 日付のフォーマット
 
-`Date`オブジェクトのメソッドを使用して、複数のフォーマット（GMT、ISOなど）で日付をフォーマットすることができます。
+`Date` オブジェクトのメソッドを使用して、さまざまな形式 (GMT、ISO など) で日付をフォーマットすることができます。
 
-`toDateString()`メソッドは、人間が読みやすい形式で日付を返します：
+`toDateString()` メソッドは、人間にとって読みやすい形式で日付を返します:
 
 ```js
 today.toDateString(); // "Sun Jun 14 2020"
 ```
 
-`toISOString()`メソッドは、ISO 8601拡張形式に従った日付を返します：
+`toISOString()` メソッドは、ISO 8601 拡張形式に従って日付を返します:
 
 ```js
 today.toISOString(); // "2020-06-13T18:30:00.000Z"
 ```
 
-`toUTCString()`メソッドは、UTCタイムゾーン形式の日付を返します：
+`toUTCString()` メソッドは、UTC タイムゾーン形式の日付を返します:
 
 ```js
 today.toUTCString(); // "Sat, 13 Jun 2020 18:30:00 GMT"
 ```
 
-`toLocaleDateString()`メソッドは、ローカリティに依存した形式で日付を返します：
+`toLocaleDateString()` メソッドは、ロケールに従った形式で日付を返します:
 
 ```js
 today.toLocaleDateString(); // "6/14/2020"
 ```
 
-`Date`メソッドの完全なリファレンスは、[MDNのドキュメント][1]で確認できます。
+`Date` メソッドの完全なリファレンスは、[MDN のドキュメント][1]で確認できます。
 
 ## カスタム日付フォーマッタ関数
 
@@ -164,3 +164,4 @@ JavaScriptの`Date`オブジェクトについての理解が深まったこと�
 
 元のMarkdownファイルを提供していただけると、その内容を日本語に翻訳します。Markdownのレイアウトを厳密に保持しながら翻訳するため、具体的なメッセージやテキストをここにコピーしてください。
 
+[1]: https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Date
