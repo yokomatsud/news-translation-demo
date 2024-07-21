@@ -1,6 +1,6 @@
 ---
 title: JavaScript Date Now – How to Get the Current Date in JavaScript
-date: 2024-07-21T14:37:41.283Z
+date: 2024-07-21T15:30:24.719Z
 authorURL: ""
 originalURL: https://www.freecodecamp.org/news/javascript-date-now-how-to-get-the-current-date-in-javascript/
 translator: ""
