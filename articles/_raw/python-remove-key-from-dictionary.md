@@ -1,6 +1,6 @@
 ---
 title: Python Remove Key from Dictionary – How to Delete Keys from a Dict
-date: 2024-07-21T11:04:39.933Z
+date: 2024-07-21T14:08:38.888Z
 authorURL: ""
 originalURL: https://www.freecodecamp.org/news/python-remove-key-from-dictionary/
 translator: ""
